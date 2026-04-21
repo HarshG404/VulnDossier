@@ -323,3 +323,10 @@ If this tool saves you time on reporting, a ⭐ on the repo is appreciated!
 ## 📄 License
 
 MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+
+
+## Screenshots
+
+| Dashboard | Vulnerability Form |
+|-----------|-------------------|
+| ![Dashboard](screenshots/dashboard.png) | ![Vuln Form](screenshots/vulnerability_section.png) |
