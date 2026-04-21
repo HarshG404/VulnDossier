@@ -313,7 +313,7 @@ VulnDossier is for authorized penetration testing only. Always obtain written pe
 ## 👤 Author
 
 **Harsh Goyal** — Penetration Tester | CEH | CCNA  
-🔗 [LinkedIn](https://www.linkedin.com/in/harsh-goyal-cybersecurity-engineer-cybersecurity-engineer/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/harsh-goyal-cybersecurity-engineer/)  
 🐙 [GitHub](https://github.com/HarshG404)
 
 If this tool saves you time on reporting, a ⭐ on the repo is appreciated!
