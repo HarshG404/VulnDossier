@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "use_tls": true,
+  "sender_email": "test@gmail.com",
+  "sender_password": "abcd efgh ijkl mnop",
+  "sender_name": "VulnDossier"
+}

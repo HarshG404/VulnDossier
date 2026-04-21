@@ -1,0 +1,68 @@
+{
+  "_comment": "PentestReport Generator v2.0 — Report Configuration File",
+  "_instructions": "Edit these values to customize how every report looks. Logo path is relative to the project root or absolute. Colors are hex codes. Run the app and go to Settings > Report Config to use the GUI editor instead.",
+
+  "company": {
+    "name": "Your Company Name",
+    "tagline": "Cybersecurity & Penetration Testing Services",
+    "website": "www.yourcompany.com",
+    "email": "security@yourcompany.com",
+    "phone": "",
+    "address": ""
+  },
+
+  "branding": {
+    "logo_path": "",
+    "logo_width_mm": 40,
+    "logo_height_mm": 20
+  },
+
+  "colors": {
+    "accent":        "#1D9E75",
+    "accent_dark":   "#0F6E56",
+    "header_bg":     "#0D1117",
+    "header_text":   "#FFFFFF",
+    "cover_bg":      "#0D1117",
+    "cover_text":    "#FFFFFF",
+    "body_text":     "#1F2328",
+    "muted_text":    "#636E7B",
+    "border":        "#D0D7DE",
+    "table_alt_row": "#F6F8FA"
+  },
+
+  "cover_page": {
+    "show_logo":           true,
+    "show_company_name":   true,
+    "show_company_tagline":true,
+    "classification_banner": true,
+    "show_report_version": true,
+    "custom_cover_title":  "",
+    "custom_footer_note":  ""
+  },
+
+  "report_structure": {
+    "show_toc":              true,
+    "show_executive_summary":true,
+    "show_summary_cards":    true,
+    "show_findings_table":   true,
+    "show_detailed_findings":true,
+    "show_disclaimer":       true,
+    "each_vuln_new_page":    true
+  },
+
+  "header_footer": {
+    "show_header":       true,
+    "header_left":       "{client_name}",
+    "header_right":      "{assessment_type}",
+    "show_footer":       true,
+    "footer_left":       "CONFIDENTIAL — {client_name}",
+    "footer_right":      "Page {page} of {total_pages}",
+    "footer_center":     "{company_name}",
+    "show_page_numbers": true
+  },
+
+  "disclaimer": {
+    "text": "This report is prepared for the exclusive and confidential use of the client named above. The findings presented are based on a time-limited assessment and may not represent all vulnerabilities present in the systems tested. The assessor is not responsible for issues arising from the use of this report by unauthorized parties. Remediation should be undertaken in a controlled environment after thorough review.",
+    "poc_note": "NOTE: Screenshots and Proof of Concept (POC) evidence must be added manually into the relevant finding sections in the Word (.docx) report."
+  }
+}
